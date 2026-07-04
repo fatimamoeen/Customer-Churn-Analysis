@@ -117,7 +117,8 @@ Telecom companies lose recurring revenue every time a customer churns, and repla
 
 ## Interactive Dashboard
 
-View the live, filterable Tableau dashboard here: **[Tableau Public link — add here]**
+## Dashboard
+<img width="1472" height="882" alt="image" src="https://github.com/user-attachments/assets/be6e59df-449d-4def-8d99-
 
 The dashboard lets you filter by gender and senior citizen status across all seven churn dimensions covered in this analysis.
 
@@ -146,8 +147,7 @@ Customer-Churn-Analysis/
 
 **Fatima Moeen**
 BSc (Hons) Computer Science, Jamia Millia Islamia
-Building toward a Data Analyst / FinTech career path
+Building toward a Data Analyst / FinTech /Business Analyst career path
 
 ## Dashboard
-<img width="1472" height="882" alt="image" src="https://github.com/user-attachments/assets/be6e59df-449d-4def-8d99-121ce7f4cbaf" />
-
+<img width="1472" height="882" alt="image" src="https://github.com/user-attachments/assets/be6e59df-449d-4def-8d99-121ce7f4c
