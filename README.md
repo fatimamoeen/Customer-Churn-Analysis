@@ -23,7 +23,6 @@
 - [Business Recommendations](#business-recommendations)
 - [Interactive Dashboard](#interactive-dashboard)
 - [Repository Structure](#repository-structure)
-- [How to Run](#how-to-run)
 - [What I Learned](#what-i-learned)
 - [Author](#author)
 
@@ -130,7 +129,7 @@ telecom-churn-eda/
 ├── README.md
 ├── requirements.txt
 ├── Customer_Churn_EDA.ipynb          # Full Python EDA notebook
-├── Customer_Churn_Report.html        # Self-built business report (single-file)
+├── Customer_Churn_Report       # business report (single-file)
 ├── data/
 │   └── telco_customer_churn.csv
 ├── assets/
@@ -145,14 +144,6 @@ telecom-churn-eda/
     └── tableau_dashboard_link.txt
 ```
 
-## How to Run
-
-```bash
-git clone https://github.com/<your-username>/telecom-churn-eda.git
-cd telecom-churn-eda
-pip install -r requirements.txt
-jupyter notebook Customer_Churn_EDA.ipynb
-```
 
 ## What I Learned
 
@@ -167,7 +158,6 @@ jupyter notebook Customer_Churn_EDA.ipynb
 BSc (Hons) Computer Science, Jamia Millia Islamia
 Building toward a Data Analyst / FinTech career path
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:52B788,100:3B4A3F&height=100&section=footer" width="100%"/>
-</div>
+## Dashboard
+<img width="1472" height="882" alt="image" src="https://github.com/user-attachments/assets/be6e59df-449d-4def-8d99-121ce7f4cbaf" />
 
