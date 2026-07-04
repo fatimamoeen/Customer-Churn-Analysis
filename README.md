@@ -119,7 +119,7 @@ Telecom companies lose recurring revenue every time a customer churns, and repla
 
 ## Dashboard
 <img width="1489" height="878" alt="image" src="https://github.com/user-attachments/assets/34991255-4f46-438c-974b-94bd09b6f915" />
-
+Live link of Dashboard-https://public.tableau.com/app/profile/fatima.moeen6078/viz/customerrchurn/Dashboard1
 
 The dashboard lets you filter by gender and senior citizen status across all seven churn dimensions covered in this analysis.
 
