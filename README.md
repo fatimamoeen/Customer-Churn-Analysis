@@ -122,28 +122,18 @@ View the live, filterable Tableau dashboard here: **[Tableau Public link — add
 The dashboard lets you filter by gender and senior citizen status across all seven churn dimensions covered in this analysis.
 
 ## Repository Structure
+## Repository Structure
 
-```
-telecom-churn-eda/
+​```
+Customer-Churn-Analysis/
 │
 ├── README.md
-├── requirements.txt
-├── Customer_Churn_EDA.ipynb          # Full Python EDA notebook
-├── Customer_Churn_Report       # business report (single-file)
-├── data/
-│   └── telco_customer_churn.csv
-├── assets/
-│   ├── churn_distribution.png
-│   ├── churn_by_gender_senior.png
-│   ├── churn_by_tenure.png
-│   ├── churn_by_service_drivers_1.png
-│   ├── churn_by_service_drivers_2.png
-│   ├── monthly_charges_impact.png
-│   └── dashboard_snapshot.png
-└── dashboard/
-    └── tableau_dashboard_link.txt
-```
-
+├── customer_churn.ipynb              # Full Python EDA notebook
+├── Customer_Churn_Business_Report.docx
+├── Customer_Churn.csv                # Raw dataset
+├── Dashboard customer churn.png      # Tableau dashboard snapshot
+└── customer_churn.twb                # Tableau workbook file
+​```
 
 ## What I Learned
 
