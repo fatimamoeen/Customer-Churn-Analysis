@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B4A3F,100:52B788&height=200&section=header&text=Telecom%20Customer%20Churn%20EDA&fontSize=38&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Trilytics%20'26%20%7C%20PGDBA%20(IIM%20Calcutta%20%C2%B7%20IIT%20Kharagpur%20%C2%B7%20ISI%20Kolkata)&descAlignY=58&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B4A3F,100:52B788&height=200&section=header&text=Telecom%20Customer%20Churn%20EDA&fontSize=38&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Exploratory%20Data%20Analysis%20%7C%20Portfolio%20Project&descAlignY=58&descSize=16" width="100%"/>
 
 ![Python](https://img.shields.io/badge/Python-3B4A3F?style=for-the-badge&logo=python&logoColor=52B788)
 ![Pandas](https://img.shields.io/badge/Pandas-3B4A3F?style=for-the-badge&logo=pandas&logoColor=52B788)
@@ -24,6 +24,7 @@
 - [Interactive Dashboard](#interactive-dashboard)
 - [Repository Structure](#repository-structure)
 - [How to Run](#how-to-run)
+- [What I Learned](#what-i-learned)
 - [Author](#author)
 
 ## Project Overview
@@ -31,16 +32,15 @@
 | | |
 |---|---|
 | **Project** | Telecom Customer Churn — Exploratory Data Analysis |
-| **Competition** | Trilytics '26 (PGDBA — IIM Calcutta, IIT Kharagpur, ISI Kolkata) |
-| **Title Sponsor** | Sun Pharma |
-| **Role** | Technical Lead |
+| **Type** | Personal portfolio project |
+| **Focus area** | Business analytics / data-driven decision making |
 | **Dataset size** | 7,043 customer records · 20 features |
 | **Overall churn rate** | 26.54% |
-| **Deliverables** | Python EDA notebook · HTML business report · Tableau interactive dashboard |
+| **Deliverables** | Python EDA notebook · Business report · Tableau interactive dashboard |
 
 ## Business Objective
 
-Telecom companies lose recurring revenue every time a customer churns, and replacing a lost customer costs more than retaining one. This project analyses 7,043 customer records to answer four questions:
+Telecom companies lose recurring revenue every time a customer churns, and replacing a lost customer costs more than retaining one. I built this project to practice framing a raw dataset as a real business problem — not just running charts, but turning them into decisions. The analysis answers four questions:
 
 1. What is the overall churn rate, and which segments churn the most?
 2. Which service offerings, contract types, and payment methods correlate with higher churn?
@@ -49,7 +49,7 @@ Telecom companies lose recurring revenue every time a customer churns, and repla
 
 ## Dataset
 
-- **Source:** Telco Customer Churn dataset
+- **Source:** Telco Customer Churn dataset (Kaggle / IBM sample dataset)
 - **Size:** 7,043 rows × 20 columns (demographic, account, and service-usage features, plus the churn label)
 - **Features include:** gender, senior citizen status, tenure, contract type, internet service, payment method, monthly charges, tech support, online security, and more
 
@@ -60,7 +60,7 @@ Telecom companies lose recurring revenue every time a customer churns, and repla
 | Data analysis | Python — Pandas, NumPy |
 | Visualisation | Matplotlib, Seaborn |
 | Environment | Jupyter Notebook |
-| Reporting | HTML/CSS (business report) |
+| Reporting | HTML/CSS (self-built business report) |
 | Dashboard | Tableau Public (interactive) |
 
 ## Data Cleaning & Transformation
@@ -130,7 +130,7 @@ telecom-churn-eda/
 ├── README.md
 ├── requirements.txt
 ├── Customer_Churn_EDA.ipynb          # Full Python EDA notebook
-├── Customer_Churn_Report.html        # Business report (single-file, self-contained)
+├── Customer_Churn_Report.html        # Self-built business report (single-file)
 ├── data/
 │   └── telco_customer_churn.csv
 ├── assets/
@@ -154,11 +154,18 @@ pip install -r requirements.txt
 jupyter notebook Customer_Churn_EDA.ipynb
 ```
 
+## What I Learned
+
+- How to move from raw EDA to a structured business narrative — quantifying risk, not just describing patterns
+- Practical debugging: pandas `FutureWarning`s, duplicate-column errors, and `wkhtmltopdf` CSS quirks while building the HTML report
+- How to design a Tableau dashboard with a deliberate color system instead of default palettes
+- The difference between a chart that's technically correct and one that actually drives a decision
+
 ## Author
 
 **Fatima Moeen**
 BSc (Hons) Computer Science, Jamia Millia Islamia
-Technical Lead, Trilytics '26
+Building toward a Data Analyst / FinTech career path
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:52B788,100:3B4A3F&height=100&section=footer" width="100%"/>
